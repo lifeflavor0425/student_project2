@@ -1,0 +1,50 @@
+.container {
+  margin: 20px auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+  text-align: center;
+}
+.container > div {
+  position: relative;
+  border: 3px solid black;
+  font-size: 60px;
+  font-weight: 700;
+  border-radius: 20%;
+  background-color: gainsboro;
+  transition: all 0.6s;
+}
+.container > div:hover {
+  background-color: orange;
+}
+.input {
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+}
+#inputNumber {
+  height: 20px;
+  margin-bottom: 10px;
+  border: 3px solid black;
+}
+#result {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ball {
+  color: green;
+}
+.strike {
+  color: blue;
+}
+.nothing {
+  color: red;
+}
+hr {
+  border: 1px solid black;
+}
+p {
+  font-size: 18px;
+}
